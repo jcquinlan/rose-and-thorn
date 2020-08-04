@@ -1,9 +1,7 @@
 const admin = require('firebase-admin');
 const functions = require('firebase-functions');
-
-const accountSid = 'ACf6de0e1d9d7df1052e94e54f44268a6d';
-const authToken = '587b8f2fd4e3ebacf6a4910fb1cf86b8';
-const client = require('twilio')(accountSid, authToken);
+const config = require('../config');
+const client = require('twilio')(config.accountSid, config.authToken);
 
 admin.initializeApp(functions.config().firebase);
 let db = admin.firestore();
