@@ -8,16 +8,7 @@ import "firebase/analytics";
 import "firebase/auth";
 import "firebase/firestore";
 
-// TODO: Replace the following with your app's Firebase project configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyBuencj8LgyOP5GEoXcVbEos7iXoZs7P88",
-  authDomain: "rose-and-thorn.firebaseapp.com",
-  databaseURL: "https://rose-and-thorn.firebaseio.com",
-  projectId: "rose-and-thorn",
-  storageBucket: "rose-and-thorn.appspot.com",
-  messagingSenderId: "351299228334",
-  appId: "1:351299228334:web:6b3f299577a56d8c61133f"
-};;
+import {firebaseConfig} from './config';
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
