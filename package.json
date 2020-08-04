@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@firebase/firestore": "^1.14.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -10,9 +11,11 @@
     "@types/node": "^13.11.1",
     "@types/react": "^16.9.33",
     "@types/react-dom": "^16.9.6",
+    "@types/styled-components": "^5.0.1",
     "firebase": "^7.13.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-phone-number-input": "^3.0.22",
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.0",
     "typescript": "^3.8.3"
