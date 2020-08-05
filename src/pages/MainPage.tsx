@@ -6,8 +6,8 @@ import TextImage2 from '../images/text2.jpg';
 import RoseImage from '../images/rose_gif.gif';
 import {devices} from '../components/styled/screens';
 
-const jamesInsta = 'https://www.instagram.com/jcquinlan';
-const danInsta = 'https://www.instagram.com/dhtorraca';
+const jamesInsta = 'https://www.instagram.com/bros_holding_hands';
+const danInsta = 'https://www.instagram.com/torracadh';
 
 const CenterWrapper = styled.div`
     display: flex;
